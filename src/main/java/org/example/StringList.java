@@ -1,26 +1,26 @@
 package org.example;
 
-public interface StringList {
+public interface IntegerList {
 
-    String add(String item);
+    Integer add(Integer item);
 
-    String add(int index, String item);
+    Integer add(int index, Integer item);
 
-    String set(int index, String item);
+    Integer set(int index, Integer item);
 
-    String remove(String item);
+    Integer remove(Integer item);
 
-    String remove(int index);
+    Integer remove(int index);
 
-    boolean contains(String item);
+    boolean contains(Integer item);
 
-    int indexOf(String item);
+    int indexOf(Integer item);
 
-    int lastIndexOf(String item);
+    int lastIndexOf(Integer item);
 
-    String get(int index);
+    Integer get(int index);
 
-    boolean equals(StringList otherList);
+    boolean equals(IntegerList otherList);
 
     int size();
 
@@ -28,5 +28,5 @@ public interface StringList {
 
     void clear();
 
-    String[] toArray();
+    Integer[] toArray();
 }
